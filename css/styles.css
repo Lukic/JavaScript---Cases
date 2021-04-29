@@ -1,0 +1,32 @@
+#cases {
+  text-align: center;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0px auto;
+  width: 300px;
+}
+ul li {
+  margin-right: 15px;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+#case-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto;
+}
+
+#case-container img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  opacity: 1;
+  transition: all ease-in-out 500ms;
+}
